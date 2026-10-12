@@ -1,0 +1,1067 @@
+{
+ "gioco": "tarocchi",
+ "nome": "Tarocchi",
+ "carte": {
+  "M00": {
+   "gruppo": "maggiori",
+   "numero": 0,
+   "romano": "0",
+   "nome": "Il Matto",
+   "nomi": {
+    "it": "Il Matto",
+    "fr": "Le Mat",
+    "en": "The Fool"
+   },
+   "alias": [
+    "Le Fou",
+    "Il Folle"
+   ]
+  },
+  "M01": {
+   "gruppo": "maggiori",
+   "numero": 1,
+   "romano": "I",
+   "nome": "Il Bagatto",
+   "nomi": {
+    "it": "Il Bagatto",
+    "fr": "Le Bateleur",
+    "en": "The Magician"
+   },
+   "alias": [
+    "Il Mago",
+    "Il Giocoliere"
+   ]
+  },
+  "M02": {
+   "gruppo": "maggiori",
+   "numero": 2,
+   "romano": "II",
+   "nome": "La Papessa",
+   "nomi": {
+    "it": "La Papessa",
+    "fr": "La Papesse",
+    "en": "The High Priestess"
+   },
+   "alias": [
+    "La Sacerdotessa",
+    "La Grande Sacerdotessa"
+   ]
+  },
+  "M03": {
+   "gruppo": "maggiori",
+   "numero": 3,
+   "romano": "III",
+   "nome": "L'Imperatrice",
+   "nomi": {
+    "it": "L'Imperatrice",
+    "fr": "L'Impératrice",
+    "en": "The Empress"
+   },
+   "alias": []
+  },
+  "M04": {
+   "gruppo": "maggiori",
+   "numero": 4,
+   "romano": "IIII",
+   "nome": "L'Imperatore",
+   "nomi": {
+    "it": "L'Imperatore",
+    "fr": "L'Empereur",
+    "en": "The Emperor"
+   },
+   "alias": []
+  },
+  "M05": {
+   "gruppo": "maggiori",
+   "numero": 5,
+   "romano": "V",
+   "nome": "Il Papa",
+   "nomi": {
+    "it": "Il Papa",
+    "fr": "Le Pape",
+    "en": "The Hierophant"
+   },
+   "alias": [
+    "Lo Ierofante",
+    "Il Gran Sacerdote"
+   ]
+  },
+  "M06": {
+   "gruppo": "maggiori",
+   "numero": 6,
+   "romano": "VI",
+   "nome": "Gli Amanti",
+   "nomi": {
+    "it": "Gli Amanti",
+    "fr": "L'Amoureux",
+    "en": "The Lovers"
+   },
+   "alias": [
+    "L'Innamorato",
+    "Gli Innamorati"
+   ]
+  },
+  "M07": {
+   "gruppo": "maggiori",
+   "numero": 7,
+   "romano": "VII",
+   "nome": "Il Carro",
+   "nomi": {
+    "it": "Il Carro",
+    "fr": "Le Chariot",
+    "en": "The Chariot"
+   },
+   "alias": []
+  },
+  "M08": {
+   "gruppo": "maggiori",
+   "numero": 8,
+   "romano": "VIII",
+   "nome": "La Giustizia",
+   "nomi": {
+    "it": "La Giustizia",
+    "fr": "La Justice",
+    "en": "Justice"
+   },
+   "alias": []
+  },
+  "M09": {
+   "gruppo": "maggiori",
+   "numero": 9,
+   "romano": "VIIII",
+   "nome": "L'Eremita",
+   "nomi": {
+    "it": "L'Eremita",
+    "fr": "L'Hermite",
+    "en": "The Hermit"
+   },
+   "alias": []
+  },
+  "M10": {
+   "gruppo": "maggiori",
+   "numero": 10,
+   "romano": "X",
+   "nome": "La Ruota della Fortuna",
+   "nomi": {
+    "it": "La Ruota della Fortuna",
+    "fr": "La Roue de Fortune",
+    "en": "Wheel of Fortune"
+   },
+   "alias": [
+    "La Ruota"
+   ]
+  },
+  "M11": {
+   "gruppo": "maggiori",
+   "numero": 11,
+   "romano": "XI",
+   "nome": "La Forza",
+   "nomi": {
+    "it": "La Forza",
+    "fr": "La Force",
+    "en": "Strength"
+   },
+   "alias": []
+  },
+  "M12": {
+   "gruppo": "maggiori",
+   "numero": 12,
+   "romano": "XII",
+   "nome": "L'Appeso",
+   "nomi": {
+    "it": "L'Appeso",
+    "fr": "Le Pendu",
+    "en": "The Hanged Man"
+   },
+   "alias": [
+    "L'Impiccato"
+   ]
+  },
+  "M13": {
+   "gruppo": "maggiori",
+   "numero": 13,
+   "romano": "XIII",
+   "nome": "La Morte",
+   "nomi": {
+    "it": "La Morte",
+    "fr": "L'Arcane sans nom",
+    "en": "Death"
+   },
+   "alias": [
+    "L'Arcano senza nome",
+    "La Mort"
+   ]
+  },
+  "M14": {
+   "gruppo": "maggiori",
+   "numero": 14,
+   "romano": "XIIII",
+   "nome": "La Temperanza",
+   "nomi": {
+    "it": "La Temperanza",
+    "fr": "Tempérance",
+    "en": "Temperance"
+   },
+   "alias": []
+  },
+  "M15": {
+   "gruppo": "maggiori",
+   "numero": 15,
+   "romano": "XV",
+   "nome": "Il Diavolo",
+   "nomi": {
+    "it": "Il Diavolo",
+    "fr": "Le Diable",
+    "en": "The Devil"
+   },
+   "alias": []
+  },
+  "M16": {
+   "gruppo": "maggiori",
+   "numero": 16,
+   "romano": "XVI",
+   "nome": "La Torre",
+   "nomi": {
+    "it": "La Torre",
+    "fr": "La Maison Dieu",
+    "en": "The Tower"
+   },
+   "alias": [
+    "La Casa di Dio",
+    "La Maison de Dieu"
+   ]
+  },
+  "M17": {
+   "gruppo": "maggiori",
+   "numero": 17,
+   "romano": "XVII",
+   "nome": "Le Stelle",
+   "nomi": {
+    "it": "Le Stelle",
+    "fr": "L'Étoile",
+    "en": "The Star"
+   },
+   "alias": [
+    "La Stella"
+   ]
+  },
+  "M18": {
+   "gruppo": "maggiori",
+   "numero": 18,
+   "romano": "XVIII",
+   "nome": "La Luna",
+   "nomi": {
+    "it": "La Luna",
+    "fr": "La Lune",
+    "en": "The Moon"
+   },
+   "alias": []
+  },
+  "M19": {
+   "gruppo": "maggiori",
+   "numero": 19,
+   "romano": "XVIIII",
+   "nome": "Il Sole",
+   "nomi": {
+    "it": "Il Sole",
+    "fr": "Le Soleil",
+    "en": "The Sun"
+   },
+   "alias": []
+  },
+  "M20": {
+   "gruppo": "maggiori",
+   "numero": 20,
+   "romano": "XX",
+   "nome": "Il Giudizio",
+   "nomi": {
+    "it": "Il Giudizio",
+    "fr": "Le Jugement",
+    "en": "Judgement"
+   },
+   "alias": [
+    "Il Giudizio Universale"
+   ]
+  },
+  "M21": {
+   "gruppo": "maggiori",
+   "numero": 21,
+   "romano": "XXI",
+   "nome": "Il Mondo",
+   "nomi": {
+    "it": "Il Mondo",
+    "fr": "Le Monde",
+    "en": "The World"
+   },
+   "alias": []
+  },
+  "coppe-01": {
+   "gruppo": "minori",
+   "seme": "coppe",
+   "numero": 1,
+   "nome": "Asso di Coppe",
+   "nomi": {
+    "it": "Asso di Coppe",
+    "fr": "As de Coupe",
+    "en": "Ace of Cups"
+   },
+   "alias": []
+  },
+  "coppe-02": {
+   "gruppo": "minori",
+   "seme": "coppe",
+   "numero": 2,
+   "nome": "Due di Coppe",
+   "nomi": {
+    "it": "Due di Coppe",
+    "fr": "Deux de Coupe",
+    "en": "Two of Cups"
+   },
+   "alias": []
+  },
+  "coppe-03": {
+   "gruppo": "minori",
+   "seme": "coppe",
+   "numero": 3,
+   "nome": "Tre di Coppe",
+   "nomi": {
+    "it": "Tre di Coppe",
+    "fr": "Trois de Coupe",
+    "en": "Three of Cups"
+   },
+   "alias": []
+  },
+  "coppe-04": {
+   "gruppo": "minori",
+   "seme": "coppe",
+   "numero": 4,
+   "nome": "Quattro di Coppe",
+   "nomi": {
+    "it": "Quattro di Coppe",
+    "fr": "Quatre de Coupe",
+    "en": "Four of Cups"
+   },
+   "alias": []
+  },
+  "coppe-05": {
+   "gruppo": "minori",
+   "seme": "coppe",
+   "numero": 5,
+   "nome": "Cinque di Coppe",
+   "nomi": {
+    "it": "Cinque di Coppe",
+    "fr": "Cinq de Coupe",
+    "en": "Five of Cups"
+   },
+   "alias": []
+  },
+  "coppe-06": {
+   "gruppo": "minori",
+   "seme": "coppe",
+   "numero": 6,
+   "nome": "Sei di Coppe",
+   "nomi": {
+    "it": "Sei di Coppe",
+    "fr": "Six de Coupe",
+    "en": "Six of Cups"
+   },
+   "alias": []
+  },
+  "coppe-07": {
+   "gruppo": "minori",
+   "seme": "coppe",
+   "numero": 7,
+   "nome": "Sette di Coppe",
+   "nomi": {
+    "it": "Sette di Coppe",
+    "fr": "Sept de Coupe",
+    "en": "Seven of Cups"
+   },
+   "alias": []
+  },
+  "coppe-08": {
+   "gruppo": "minori",
+   "seme": "coppe",
+   "numero": 8,
+   "nome": "Otto di Coppe",
+   "nomi": {
+    "it": "Otto di Coppe",
+    "fr": "Huit de Coupe",
+    "en": "Eight of Cups"
+   },
+   "alias": []
+  },
+  "coppe-09": {
+   "gruppo": "minori",
+   "seme": "coppe",
+   "numero": 9,
+   "nome": "Nove di Coppe",
+   "nomi": {
+    "it": "Nove di Coppe",
+    "fr": "Neuf de Coupe",
+    "en": "Nine of Cups"
+   },
+   "alias": []
+  },
+  "coppe-10": {
+   "gruppo": "minori",
+   "seme": "coppe",
+   "numero": 10,
+   "nome": "Dieci di Coppe",
+   "nomi": {
+    "it": "Dieci di Coppe",
+    "fr": "Dix de Coupe",
+    "en": "Ten of Cups"
+   },
+   "alias": []
+  },
+  "coppe-fante": {
+   "gruppo": "figure",
+   "seme": "coppe",
+   "numero": 11,
+   "nome": "Fante di Coppe",
+   "nomi": {
+    "it": "Fante di Coppe",
+    "fr": "Valet de Coupe",
+    "en": "Page of Cups"
+   },
+   "alias": []
+  },
+  "coppe-damigella": {
+   "gruppo": "figure",
+   "seme": "coppe",
+   "numero": 11.5,
+   "nome": "Damigella di Coppe",
+   "nomi": {
+    "it": "Damigella di Coppe",
+    "fr": "Demoiselle de Coupe",
+    "en": "Maiden of Cups"
+   },
+   "alias": []
+  },
+  "coppe-cavaliere": {
+   "gruppo": "figure",
+   "seme": "coppe",
+   "numero": 12,
+   "nome": "Cavaliere di Coppe",
+   "nomi": {
+    "it": "Cavaliere di Coppe",
+    "fr": "Cavalier de Coupe",
+    "en": "Knight of Cups"
+   },
+   "alias": []
+  },
+  "coppe-cavaliera": {
+   "gruppo": "figure",
+   "seme": "coppe",
+   "numero": 12.5,
+   "nome": "Cavaliera di Coppe",
+   "nomi": {
+    "it": "Cavaliera di Coppe",
+    "fr": "Cavalière de Coupe",
+    "en": "Lady Knight of Cups"
+   },
+   "alias": []
+  },
+  "coppe-regina": {
+   "gruppo": "figure",
+   "seme": "coppe",
+   "numero": 13,
+   "nome": "Regina di Coppe",
+   "nomi": {
+    "it": "Regina di Coppe",
+    "fr": "Reine de Coupe",
+    "en": "Queen of Cups"
+   },
+   "alias": []
+  },
+  "coppe-re": {
+   "gruppo": "figure",
+   "seme": "coppe",
+   "numero": 14,
+   "nome": "Re di Coppe",
+   "nomi": {
+    "it": "Re di Coppe",
+    "fr": "Roi de Coupe",
+    "en": "King of Cups"
+   },
+   "alias": []
+  },
+  "spade-01": {
+   "gruppo": "minori",
+   "seme": "spade",
+   "numero": 1,
+   "nome": "Asso di Spade",
+   "nomi": {
+    "it": "Asso di Spade",
+    "fr": "As de Épée",
+    "en": "Ace of Swords"
+   },
+   "alias": []
+  },
+  "spade-02": {
+   "gruppo": "minori",
+   "seme": "spade",
+   "numero": 2,
+   "nome": "Due di Spade",
+   "nomi": {
+    "it": "Due di Spade",
+    "fr": "Deux de Épée",
+    "en": "Two of Swords"
+   },
+   "alias": []
+  },
+  "spade-03": {
+   "gruppo": "minori",
+   "seme": "spade",
+   "numero": 3,
+   "nome": "Tre di Spade",
+   "nomi": {
+    "it": "Tre di Spade",
+    "fr": "Trois de Épée",
+    "en": "Three of Swords"
+   },
+   "alias": []
+  },
+  "spade-04": {
+   "gruppo": "minori",
+   "seme": "spade",
+   "numero": 4,
+   "nome": "Quattro di Spade",
+   "nomi": {
+    "it": "Quattro di Spade",
+    "fr": "Quatre de Épée",
+    "en": "Four of Swords"
+   },
+   "alias": []
+  },
+  "spade-05": {
+   "gruppo": "minori",
+   "seme": "spade",
+   "numero": 5,
+   "nome": "Cinque di Spade",
+   "nomi": {
+    "it": "Cinque di Spade",
+    "fr": "Cinq de Épée",
+    "en": "Five of Swords"
+   },
+   "alias": []
+  },
+  "spade-06": {
+   "gruppo": "minori",
+   "seme": "spade",
+   "numero": 6,
+   "nome": "Sei di Spade",
+   "nomi": {
+    "it": "Sei di Spade",
+    "fr": "Six de Épée",
+    "en": "Six of Swords"
+   },
+   "alias": []
+  },
+  "spade-07": {
+   "gruppo": "minori",
+   "seme": "spade",
+   "numero": 7,
+   "nome": "Sette di Spade",
+   "nomi": {
+    "it": "Sette di Spade",
+    "fr": "Sept de Épée",
+    "en": "Seven of Swords"
+   },
+   "alias": []
+  },
+  "spade-08": {
+   "gruppo": "minori",
+   "seme": "spade",
+   "numero": 8,
+   "nome": "Otto di Spade",
+   "nomi": {
+    "it": "Otto di Spade",
+    "fr": "Huit de Épée",
+    "en": "Eight of Swords"
+   },
+   "alias": []
+  },
+  "spade-09": {
+   "gruppo": "minori",
+   "seme": "spade",
+   "numero": 9,
+   "nome": "Nove di Spade",
+   "nomi": {
+    "it": "Nove di Spade",
+    "fr": "Neuf de Épée",
+    "en": "Nine of Swords"
+   },
+   "alias": []
+  },
+  "spade-10": {
+   "gruppo": "minori",
+   "seme": "spade",
+   "numero": 10,
+   "nome": "Dieci di Spade",
+   "nomi": {
+    "it": "Dieci di Spade",
+    "fr": "Dix de Épée",
+    "en": "Ten of Swords"
+   },
+   "alias": []
+  },
+  "spade-fante": {
+   "gruppo": "figure",
+   "seme": "spade",
+   "numero": 11,
+   "nome": "Fante di Spade",
+   "nomi": {
+    "it": "Fante di Spade",
+    "fr": "Valet de Épée",
+    "en": "Page of Swords"
+   },
+   "alias": []
+  },
+  "spade-damigella": {
+   "gruppo": "figure",
+   "seme": "spade",
+   "numero": 11.5,
+   "nome": "Damigella di Spade",
+   "nomi": {
+    "it": "Damigella di Spade",
+    "fr": "Demoiselle de Épée",
+    "en": "Maiden of Swords"
+   },
+   "alias": []
+  },
+  "spade-cavaliere": {
+   "gruppo": "figure",
+   "seme": "spade",
+   "numero": 12,
+   "nome": "Cavaliere di Spade",
+   "nomi": {
+    "it": "Cavaliere di Spade",
+    "fr": "Cavalier de Épée",
+    "en": "Knight of Swords"
+   },
+   "alias": []
+  },
+  "spade-cavaliera": {
+   "gruppo": "figure",
+   "seme": "spade",
+   "numero": 12.5,
+   "nome": "Cavaliera di Spade",
+   "nomi": {
+    "it": "Cavaliera di Spade",
+    "fr": "Cavalière de Épée",
+    "en": "Lady Knight of Swords"
+   },
+   "alias": []
+  },
+  "spade-regina": {
+   "gruppo": "figure",
+   "seme": "spade",
+   "numero": 13,
+   "nome": "Regina di Spade",
+   "nomi": {
+    "it": "Regina di Spade",
+    "fr": "Reine de Épée",
+    "en": "Queen of Swords"
+   },
+   "alias": []
+  },
+  "spade-re": {
+   "gruppo": "figure",
+   "seme": "spade",
+   "numero": 14,
+   "nome": "Re di Spade",
+   "nomi": {
+    "it": "Re di Spade",
+    "fr": "Roi de Épée",
+    "en": "King of Swords"
+   },
+   "alias": []
+  },
+  "bastoni-01": {
+   "gruppo": "minori",
+   "seme": "bastoni",
+   "numero": 1,
+   "nome": "Asso di Bastoni",
+   "nomi": {
+    "it": "Asso di Bastoni",
+    "fr": "As de Bâton",
+    "en": "Ace of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-02": {
+   "gruppo": "minori",
+   "seme": "bastoni",
+   "numero": 2,
+   "nome": "Due di Bastoni",
+   "nomi": {
+    "it": "Due di Bastoni",
+    "fr": "Deux de Bâton",
+    "en": "Two of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-03": {
+   "gruppo": "minori",
+   "seme": "bastoni",
+   "numero": 3,
+   "nome": "Tre di Bastoni",
+   "nomi": {
+    "it": "Tre di Bastoni",
+    "fr": "Trois de Bâton",
+    "en": "Three of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-04": {
+   "gruppo": "minori",
+   "seme": "bastoni",
+   "numero": 4,
+   "nome": "Quattro di Bastoni",
+   "nomi": {
+    "it": "Quattro di Bastoni",
+    "fr": "Quatre de Bâton",
+    "en": "Four of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-05": {
+   "gruppo": "minori",
+   "seme": "bastoni",
+   "numero": 5,
+   "nome": "Cinque di Bastoni",
+   "nomi": {
+    "it": "Cinque di Bastoni",
+    "fr": "Cinq de Bâton",
+    "en": "Five of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-06": {
+   "gruppo": "minori",
+   "seme": "bastoni",
+   "numero": 6,
+   "nome": "Sei di Bastoni",
+   "nomi": {
+    "it": "Sei di Bastoni",
+    "fr": "Six de Bâton",
+    "en": "Six of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-07": {
+   "gruppo": "minori",
+   "seme": "bastoni",
+   "numero": 7,
+   "nome": "Sette di Bastoni",
+   "nomi": {
+    "it": "Sette di Bastoni",
+    "fr": "Sept de Bâton",
+    "en": "Seven of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-08": {
+   "gruppo": "minori",
+   "seme": "bastoni",
+   "numero": 8,
+   "nome": "Otto di Bastoni",
+   "nomi": {
+    "it": "Otto di Bastoni",
+    "fr": "Huit de Bâton",
+    "en": "Eight of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-09": {
+   "gruppo": "minori",
+   "seme": "bastoni",
+   "numero": 9,
+   "nome": "Nove di Bastoni",
+   "nomi": {
+    "it": "Nove di Bastoni",
+    "fr": "Neuf de Bâton",
+    "en": "Nine of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-10": {
+   "gruppo": "minori",
+   "seme": "bastoni",
+   "numero": 10,
+   "nome": "Dieci di Bastoni",
+   "nomi": {
+    "it": "Dieci di Bastoni",
+    "fr": "Dix de Bâton",
+    "en": "Ten of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-fante": {
+   "gruppo": "figure",
+   "seme": "bastoni",
+   "numero": 11,
+   "nome": "Fante di Bastoni",
+   "nomi": {
+    "it": "Fante di Bastoni",
+    "fr": "Valet de Bâton",
+    "en": "Page of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-damigella": {
+   "gruppo": "figure",
+   "seme": "bastoni",
+   "numero": 11.5,
+   "nome": "Damigella di Bastoni",
+   "nomi": {
+    "it": "Damigella di Bastoni",
+    "fr": "Demoiselle de Bâton",
+    "en": "Maiden of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-cavaliere": {
+   "gruppo": "figure",
+   "seme": "bastoni",
+   "numero": 12,
+   "nome": "Cavaliere di Bastoni",
+   "nomi": {
+    "it": "Cavaliere di Bastoni",
+    "fr": "Cavalier de Bâton",
+    "en": "Knight of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-cavaliera": {
+   "gruppo": "figure",
+   "seme": "bastoni",
+   "numero": 12.5,
+   "nome": "Cavaliera di Bastoni",
+   "nomi": {
+    "it": "Cavaliera di Bastoni",
+    "fr": "Cavalière de Bâton",
+    "en": "Lady Knight of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-regina": {
+   "gruppo": "figure",
+   "seme": "bastoni",
+   "numero": 13,
+   "nome": "Regina di Bastoni",
+   "nomi": {
+    "it": "Regina di Bastoni",
+    "fr": "Reine de Bâton",
+    "en": "Queen of Wands"
+   },
+   "alias": []
+  },
+  "bastoni-re": {
+   "gruppo": "figure",
+   "seme": "bastoni",
+   "numero": 14,
+   "nome": "Re di Bastoni",
+   "nomi": {
+    "it": "Re di Bastoni",
+    "fr": "Roi de Bâton",
+    "en": "King of Wands"
+   },
+   "alias": []
+  },
+  "denari-01": {
+   "gruppo": "minori",
+   "seme": "denari",
+   "numero": 1,
+   "nome": "Asso di Denari",
+   "nomi": {
+    "it": "Asso di Denari",
+    "fr": "As de Denier",
+    "en": "Ace of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-02": {
+   "gruppo": "minori",
+   "seme": "denari",
+   "numero": 2,
+   "nome": "Due di Denari",
+   "nomi": {
+    "it": "Due di Denari",
+    "fr": "Deux de Denier",
+    "en": "Two of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-03": {
+   "gruppo": "minori",
+   "seme": "denari",
+   "numero": 3,
+   "nome": "Tre di Denari",
+   "nomi": {
+    "it": "Tre di Denari",
+    "fr": "Trois de Denier",
+    "en": "Three of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-04": {
+   "gruppo": "minori",
+   "seme": "denari",
+   "numero": 4,
+   "nome": "Quattro di Denari",
+   "nomi": {
+    "it": "Quattro di Denari",
+    "fr": "Quatre de Denier",
+    "en": "Four of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-05": {
+   "gruppo": "minori",
+   "seme": "denari",
+   "numero": 5,
+   "nome": "Cinque di Denari",
+   "nomi": {
+    "it": "Cinque di Denari",
+    "fr": "Cinq de Denier",
+    "en": "Five of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-06": {
+   "gruppo": "minori",
+   "seme": "denari",
+   "numero": 6,
+   "nome": "Sei di Denari",
+   "nomi": {
+    "it": "Sei di Denari",
+    "fr": "Six de Denier",
+    "en": "Six of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-07": {
+   "gruppo": "minori",
+   "seme": "denari",
+   "numero": 7,
+   "nome": "Sette di Denari",
+   "nomi": {
+    "it": "Sette di Denari",
+    "fr": "Sept de Denier",
+    "en": "Seven of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-08": {
+   "gruppo": "minori",
+   "seme": "denari",
+   "numero": 8,
+   "nome": "Otto di Denari",
+   "nomi": {
+    "it": "Otto di Denari",
+    "fr": "Huit de Denier",
+    "en": "Eight of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-09": {
+   "gruppo": "minori",
+   "seme": "denari",
+   "numero": 9,
+   "nome": "Nove di Denari",
+   "nomi": {
+    "it": "Nove di Denari",
+    "fr": "Neuf de Denier",
+    "en": "Nine of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-10": {
+   "gruppo": "minori",
+   "seme": "denari",
+   "numero": 10,
+   "nome": "Dieci di Denari",
+   "nomi": {
+    "it": "Dieci di Denari",
+    "fr": "Dix de Denier",
+    "en": "Ten of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-fante": {
+   "gruppo": "figure",
+   "seme": "denari",
+   "numero": 11,
+   "nome": "Fante di Denari",
+   "nomi": {
+    "it": "Fante di Denari",
+    "fr": "Valet de Denier",
+    "en": "Page of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-damigella": {
+   "gruppo": "figure",
+   "seme": "denari",
+   "numero": 11.5,
+   "nome": "Damigella di Denari",
+   "nomi": {
+    "it": "Damigella di Denari",
+    "fr": "Demoiselle de Denier",
+    "en": "Maiden of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-cavaliere": {
+   "gruppo": "figure",
+   "seme": "denari",
+   "numero": 12,
+   "nome": "Cavaliere di Denari",
+   "nomi": {
+    "it": "Cavaliere di Denari",
+    "fr": "Cavalier de Denier",
+    "en": "Knight of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-cavaliera": {
+   "gruppo": "figure",
+   "seme": "denari",
+   "numero": 12.5,
+   "nome": "Cavaliera di Denari",
+   "nomi": {
+    "it": "Cavaliera di Denari",
+    "fr": "Cavalière de Denier",
+    "en": "Lady Knight of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-regina": {
+   "gruppo": "figure",
+   "seme": "denari",
+   "numero": 13,
+   "nome": "Regina di Denari",
+   "nomi": {
+    "it": "Regina di Denari",
+    "fr": "Reine de Denier",
+    "en": "Queen of Pentacles"
+   },
+   "alias": []
+  },
+  "denari-re": {
+   "gruppo": "figure",
+   "seme": "denari",
+   "numero": 14,
+   "nome": "Re di Denari",
+   "nomi": {
+    "it": "Re di Denari",
+    "fr": "Roi de Denier",
+    "en": "King of Pentacles"
+   },
+   "alias": []
+  }
+ }
+}
