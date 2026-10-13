@@ -1,61 +1,73 @@
 {
  "gioco": "tarocchi",
- "nome": "Tarocchi",
  "carte": {
   "M00": {
    "gruppo": "maggiori",
    "numero": 0,
    "romano": "0",
-   "nome": "Il Matto",
    "nomi": {
     "it": "Il Matto",
+    "en": "The Fool",
     "fr": "Le Mat",
-    "en": "The Fool"
+    "de": "Der Narr",
+    "es": "El Loco",
+    "uk": "Блазень"
    },
    "alias": [
     "Le Fou",
-    "Il Folle"
+    "Il Folle",
+    "Дурень"
    ]
   },
   "M01": {
    "gruppo": "maggiori",
    "numero": 1,
    "romano": "I",
-   "nome": "Il Bagatto",
    "nomi": {
     "it": "Il Bagatto",
+    "en": "The Magician",
     "fr": "Le Bateleur",
-    "en": "The Magician"
+    "de": "Der Magier",
+    "es": "El Mago",
+    "uk": "Маг"
    },
    "alias": [
     "Il Mago",
-    "Il Giocoliere"
+    "Il Giocoliere",
+    "Der Gaukler"
    ]
   },
   "M02": {
    "gruppo": "maggiori",
    "numero": 2,
    "romano": "II",
-   "nome": "La Papessa",
    "nomi": {
     "it": "La Papessa",
+    "en": "The High Priestess",
     "fr": "La Papesse",
-    "en": "The High Priestess"
+    "de": "Die Päpstin",
+    "es": "La Papisa",
+    "uk": "Папеса"
    },
    "alias": [
     "La Sacerdotessa",
-    "La Grande Sacerdotessa"
+    "La Grande Sacerdotessa",
+    "Die Hohepriesterin",
+    "La Sacerdotisa",
+    "Верховна жриця"
    ]
   },
   "M03": {
    "gruppo": "maggiori",
    "numero": 3,
    "romano": "III",
-   "nome": "L'Imperatrice",
    "nomi": {
     "it": "L'Imperatrice",
+    "en": "The Empress",
     "fr": "L'Impératrice",
-    "en": "The Empress"
+    "de": "Die Herrscherin",
+    "es": "La Emperatriz",
+    "uk": "Імператриця"
    },
    "alias": []
   },
@@ -63,11 +75,13 @@
    "gruppo": "maggiori",
    "numero": 4,
    "romano": "IIII",
-   "nome": "L'Imperatore",
    "nomi": {
     "it": "L'Imperatore",
+    "en": "The Emperor",
     "fr": "L'Empereur",
-    "en": "The Emperor"
+    "de": "Der Herrscher",
+    "es": "El Emperador",
+    "uk": "Імператор"
    },
    "alias": []
   },
@@ -75,41 +89,51 @@
    "gruppo": "maggiori",
    "numero": 5,
    "romano": "V",
-   "nome": "Il Papa",
    "nomi": {
     "it": "Il Papa",
+    "en": "The Hierophant",
     "fr": "Le Pape",
-    "en": "The Hierophant"
+    "de": "Der Papst",
+    "es": "El Papa",
+    "uk": "Папа"
    },
    "alias": [
     "Lo Ierofante",
-    "Il Gran Sacerdote"
+    "Il Gran Sacerdote",
+    "Der Hierophant",
+    "El Hierofante",
+    "Ієрофант"
    ]
   },
   "M06": {
    "gruppo": "maggiori",
    "numero": 6,
    "romano": "VI",
-   "nome": "Gli Amanti",
    "nomi": {
     "it": "Gli Amanti",
+    "en": "The Lovers",
     "fr": "L'Amoureux",
-    "en": "The Lovers"
+    "de": "Die Liebenden",
+    "es": "Los Enamorados",
+    "uk": "Закохані"
    },
    "alias": [
     "L'Innamorato",
-    "Gli Innamorati"
+    "Gli Innamorati",
+    "Los Amantes"
    ]
   },
   "M07": {
    "gruppo": "maggiori",
    "numero": 7,
    "romano": "VII",
-   "nome": "Il Carro",
    "nomi": {
     "it": "Il Carro",
+    "en": "The Chariot",
     "fr": "Le Chariot",
-    "en": "The Chariot"
+    "de": "Der Wagen",
+    "es": "El Carro",
+    "uk": "Колісниця"
    },
    "alias": []
   },
@@ -117,11 +141,13 @@
    "gruppo": "maggiori",
    "numero": 8,
    "romano": "VIII",
-   "nome": "La Giustizia",
    "nomi": {
     "it": "La Giustizia",
+    "en": "Justice",
     "fr": "La Justice",
-    "en": "Justice"
+    "de": "Die Gerechtigkeit",
+    "es": "La Justicia",
+    "uk": "Справедливість"
    },
    "alias": []
   },
@@ -129,11 +155,13 @@
    "gruppo": "maggiori",
    "numero": 9,
    "romano": "VIIII",
-   "nome": "L'Eremita",
    "nomi": {
     "it": "L'Eremita",
+    "en": "The Hermit",
     "fr": "L'Hermite",
-    "en": "The Hermit"
+    "de": "Der Eremit",
+    "es": "El Ermitaño",
+    "uk": "Відлюдник"
    },
    "alias": []
   },
@@ -141,11 +169,13 @@
    "gruppo": "maggiori",
    "numero": 10,
    "romano": "X",
-   "nome": "La Ruota della Fortuna",
    "nomi": {
     "it": "La Ruota della Fortuna",
+    "en": "Wheel of Fortune",
     "fr": "La Roue de Fortune",
-    "en": "Wheel of Fortune"
+    "de": "Das Rad des Schicksals",
+    "es": "La Rueda de la Fortuna",
+    "uk": "Колесо Фортуни"
    },
    "alias": [
     "La Ruota"
@@ -155,11 +185,13 @@
    "gruppo": "maggiori",
    "numero": 11,
    "romano": "XI",
-   "nome": "La Forza",
    "nomi": {
     "it": "La Forza",
+    "en": "Strength",
     "fr": "La Force",
-    "en": "Strength"
+    "de": "Die Kraft",
+    "es": "La Fuerza",
+    "uk": "Сила"
    },
    "alias": []
   },
@@ -167,11 +199,13 @@
    "gruppo": "maggiori",
    "numero": 12,
    "romano": "XII",
-   "nome": "L'Appeso",
    "nomi": {
     "it": "L'Appeso",
+    "en": "The Hanged Man",
     "fr": "Le Pendu",
-    "en": "The Hanged Man"
+    "de": "Der Gehängte",
+    "es": "El Colgado",
+    "uk": "Повішений"
    },
    "alias": [
     "L'Impiccato"
@@ -181,11 +215,13 @@
    "gruppo": "maggiori",
    "numero": 13,
    "romano": "XIII",
-   "nome": "La Morte",
    "nomi": {
     "it": "La Morte",
+    "en": "Death",
     "fr": "L'Arcane sans nom",
-    "en": "Death"
+    "de": "Der Tod",
+    "es": "La Muerte",
+    "uk": "Смерть"
    },
    "alias": [
     "L'Arcano senza nome",
@@ -196,23 +232,29 @@
    "gruppo": "maggiori",
    "numero": 14,
    "romano": "XIIII",
-   "nome": "La Temperanza",
    "nomi": {
     "it": "La Temperanza",
+    "en": "Temperance",
     "fr": "Tempérance",
-    "en": "Temperance"
+    "de": "Die Mäßigkeit",
+    "es": "La Templanza",
+    "uk": "Поміркованість"
    },
-   "alias": []
+   "alias": [
+    "Die Mäßigung"
+   ]
   },
   "M15": {
    "gruppo": "maggiori",
    "numero": 15,
    "romano": "XV",
-   "nome": "Il Diavolo",
    "nomi": {
     "it": "Il Diavolo",
+    "en": "The Devil",
     "fr": "Le Diable",
-    "en": "The Devil"
+    "de": "Der Teufel",
+    "es": "El Diablo",
+    "uk": "Диявол"
    },
    "alias": []
   },
@@ -220,11 +262,13 @@
    "gruppo": "maggiori",
    "numero": 16,
    "romano": "XVI",
-   "nome": "La Torre",
    "nomi": {
     "it": "La Torre",
+    "en": "The Tower",
     "fr": "La Maison Dieu",
-    "en": "The Tower"
+    "de": "Der Turm",
+    "es": "La Torre",
+    "uk": "Вежа"
    },
    "alias": [
     "La Casa di Dio",
@@ -235,11 +279,13 @@
    "gruppo": "maggiori",
    "numero": 17,
    "romano": "XVII",
-   "nome": "Le Stelle",
    "nomi": {
     "it": "Le Stelle",
+    "en": "The Star",
     "fr": "L'Étoile",
-    "en": "The Star"
+    "de": "Der Stern",
+    "es": "La Estrella",
+    "uk": "Зірка"
    },
    "alias": [
     "La Stella"
@@ -249,11 +295,13 @@
    "gruppo": "maggiori",
    "numero": 18,
    "romano": "XVIII",
-   "nome": "La Luna",
    "nomi": {
     "it": "La Luna",
+    "en": "The Moon",
     "fr": "La Lune",
-    "en": "The Moon"
+    "de": "Der Mond",
+    "es": "La Luna",
+    "uk": "Місяць"
    },
    "alias": []
   },
@@ -261,11 +309,13 @@
    "gruppo": "maggiori",
    "numero": 19,
    "romano": "XVIIII",
-   "nome": "Il Sole",
    "nomi": {
     "it": "Il Sole",
+    "en": "The Sun",
     "fr": "Le Soleil",
-    "en": "The Sun"
+    "de": "Die Sonne",
+    "es": "El Sol",
+    "uk": "Сонце"
    },
    "alias": []
   },
@@ -273,25 +323,30 @@
    "gruppo": "maggiori",
    "numero": 20,
    "romano": "XX",
-   "nome": "Il Giudizio",
    "nomi": {
     "it": "Il Giudizio",
+    "en": "Judgement",
     "fr": "Le Jugement",
-    "en": "Judgement"
+    "de": "Das Gericht",
+    "es": "El Juicio",
+    "uk": "Суд"
    },
    "alias": [
-    "Il Giudizio Universale"
+    "Il Giudizio Universale",
+    "Страшний суд"
    ]
   },
   "M21": {
    "gruppo": "maggiori",
    "numero": 21,
    "romano": "XXI",
-   "nome": "Il Mondo",
    "nomi": {
     "it": "Il Mondo",
+    "en": "The World",
     "fr": "Le Monde",
-    "en": "The World"
+    "de": "Die Welt",
+    "es": "El Mundo",
+    "uk": "Світ"
    },
    "alias": []
   },
@@ -299,11 +354,13 @@
    "gruppo": "minori",
    "seme": "coppe",
    "numero": 1,
-   "nome": "Asso di Coppe",
    "nomi": {
     "it": "Asso di Coppe",
+    "en": "Ace of Cups",
     "fr": "As de Coupe",
-    "en": "Ace of Cups"
+    "de": "Ass der Kelche",
+    "es": "As de Copas",
+    "uk": "Туз Кубків"
    },
    "alias": []
   },
@@ -311,11 +368,13 @@
    "gruppo": "minori",
    "seme": "coppe",
    "numero": 2,
-   "nome": "Due di Coppe",
    "nomi": {
     "it": "Due di Coppe",
+    "en": "Two of Cups",
     "fr": "Deux de Coupe",
-    "en": "Two of Cups"
+    "de": "Zwei der Kelche",
+    "es": "Dos de Copas",
+    "uk": "Двійка Кубків"
    },
    "alias": []
   },
@@ -323,11 +382,13 @@
    "gruppo": "minori",
    "seme": "coppe",
    "numero": 3,
-   "nome": "Tre di Coppe",
    "nomi": {
     "it": "Tre di Coppe",
+    "en": "Three of Cups",
     "fr": "Trois de Coupe",
-    "en": "Three of Cups"
+    "de": "Drei der Kelche",
+    "es": "Tres de Copas",
+    "uk": "Трійка Кубків"
    },
    "alias": []
   },
@@ -335,11 +396,13 @@
    "gruppo": "minori",
    "seme": "coppe",
    "numero": 4,
-   "nome": "Quattro di Coppe",
    "nomi": {
     "it": "Quattro di Coppe",
+    "en": "Four of Cups",
     "fr": "Quatre de Coupe",
-    "en": "Four of Cups"
+    "de": "Vier der Kelche",
+    "es": "Cuatro de Copas",
+    "uk": "Четвірка Кубків"
    },
    "alias": []
   },
@@ -347,11 +410,13 @@
    "gruppo": "minori",
    "seme": "coppe",
    "numero": 5,
-   "nome": "Cinque di Coppe",
    "nomi": {
     "it": "Cinque di Coppe",
+    "en": "Five of Cups",
     "fr": "Cinq de Coupe",
-    "en": "Five of Cups"
+    "de": "Fünf der Kelche",
+    "es": "Cinco de Copas",
+    "uk": "П'ятірка Кубків"
    },
    "alias": []
   },
@@ -359,11 +424,13 @@
    "gruppo": "minori",
    "seme": "coppe",
    "numero": 6,
-   "nome": "Sei di Coppe",
    "nomi": {
     "it": "Sei di Coppe",
+    "en": "Six of Cups",
     "fr": "Six de Coupe",
-    "en": "Six of Cups"
+    "de": "Sechs der Kelche",
+    "es": "Seis de Copas",
+    "uk": "Шістка Кубків"
    },
    "alias": []
   },
@@ -371,11 +438,13 @@
    "gruppo": "minori",
    "seme": "coppe",
    "numero": 7,
-   "nome": "Sette di Coppe",
    "nomi": {
     "it": "Sette di Coppe",
+    "en": "Seven of Cups",
     "fr": "Sept de Coupe",
-    "en": "Seven of Cups"
+    "de": "Sieben der Kelche",
+    "es": "Siete de Copas",
+    "uk": "Сімка Кубків"
    },
    "alias": []
   },
@@ -383,11 +452,13 @@
    "gruppo": "minori",
    "seme": "coppe",
    "numero": 8,
-   "nome": "Otto di Coppe",
    "nomi": {
     "it": "Otto di Coppe",
+    "en": "Eight of Cups",
     "fr": "Huit de Coupe",
-    "en": "Eight of Cups"
+    "de": "Acht der Kelche",
+    "es": "Ocho de Copas",
+    "uk": "Вісімка Кубків"
    },
    "alias": []
   },
@@ -395,11 +466,13 @@
    "gruppo": "minori",
    "seme": "coppe",
    "numero": 9,
-   "nome": "Nove di Coppe",
    "nomi": {
     "it": "Nove di Coppe",
+    "en": "Nine of Cups",
     "fr": "Neuf de Coupe",
-    "en": "Nine of Cups"
+    "de": "Neun der Kelche",
+    "es": "Nueve de Copas",
+    "uk": "Дев'ятка Кубків"
    },
    "alias": []
   },
@@ -407,11 +480,13 @@
    "gruppo": "minori",
    "seme": "coppe",
    "numero": 10,
-   "nome": "Dieci di Coppe",
    "nomi": {
     "it": "Dieci di Coppe",
+    "en": "Ten of Cups",
     "fr": "Dix de Coupe",
-    "en": "Ten of Cups"
+    "de": "Zehn der Kelche",
+    "es": "Diez de Copas",
+    "uk": "Десятка Кубків"
    },
    "alias": []
   },
@@ -419,11 +494,13 @@
    "gruppo": "figure",
    "seme": "coppe",
    "numero": 11,
-   "nome": "Fante di Coppe",
    "nomi": {
     "it": "Fante di Coppe",
+    "en": "Page of Cups",
     "fr": "Valet de Coupe",
-    "en": "Page of Cups"
+    "de": "Bube der Kelche",
+    "es": "Sota de Copas",
+    "uk": "Паж Кубків"
    },
    "alias": []
   },
@@ -431,11 +508,13 @@
    "gruppo": "figure",
    "seme": "coppe",
    "numero": 11.5,
-   "nome": "Damigella di Coppe",
    "nomi": {
     "it": "Damigella di Coppe",
+    "en": "Maiden of Cups",
     "fr": "Demoiselle de Coupe",
-    "en": "Maiden of Cups"
+    "de": "Jungfer der Kelche",
+    "es": "Doncella de Copas",
+    "uk": "Панна Кубків"
    },
    "alias": []
   },
@@ -443,11 +522,13 @@
    "gruppo": "figure",
    "seme": "coppe",
    "numero": 12,
-   "nome": "Cavaliere di Coppe",
    "nomi": {
     "it": "Cavaliere di Coppe",
+    "en": "Knight of Cups",
     "fr": "Cavalier de Coupe",
-    "en": "Knight of Cups"
+    "de": "Ritter der Kelche",
+    "es": "Caballero de Copas",
+    "uk": "Лицар Кубків"
    },
    "alias": []
   },
@@ -455,11 +536,13 @@
    "gruppo": "figure",
    "seme": "coppe",
    "numero": 12.5,
-   "nome": "Cavaliera di Coppe",
    "nomi": {
     "it": "Cavaliera di Coppe",
+    "en": "Lady Knight of Cups",
     "fr": "Cavalière de Coupe",
-    "en": "Lady Knight of Cups"
+    "de": "Ritterin der Kelche",
+    "es": "Amazona de Copas",
+    "uk": "Вершниця Кубків"
    },
    "alias": []
   },
@@ -467,11 +550,13 @@
    "gruppo": "figure",
    "seme": "coppe",
    "numero": 13,
-   "nome": "Regina di Coppe",
    "nomi": {
     "it": "Regina di Coppe",
+    "en": "Queen of Cups",
     "fr": "Reine de Coupe",
-    "en": "Queen of Cups"
+    "de": "Königin der Kelche",
+    "es": "Reina de Copas",
+    "uk": "Королева Кубків"
    },
    "alias": []
   },
@@ -479,11 +564,13 @@
    "gruppo": "figure",
    "seme": "coppe",
    "numero": 14,
-   "nome": "Re di Coppe",
    "nomi": {
     "it": "Re di Coppe",
+    "en": "King of Cups",
     "fr": "Roi de Coupe",
-    "en": "King of Cups"
+    "de": "König der Kelche",
+    "es": "Rey de Copas",
+    "uk": "Король Кубків"
    },
    "alias": []
   },
@@ -491,11 +578,13 @@
    "gruppo": "minori",
    "seme": "spade",
    "numero": 1,
-   "nome": "Asso di Spade",
    "nomi": {
     "it": "Asso di Spade",
-    "fr": "As de Épée",
-    "en": "Ace of Swords"
+    "en": "Ace of Swords",
+    "fr": "As d'Épée",
+    "de": "Ass der Schwerter",
+    "es": "As de Espadas",
+    "uk": "Туз Мечів"
    },
    "alias": []
   },
@@ -503,11 +592,13 @@
    "gruppo": "minori",
    "seme": "spade",
    "numero": 2,
-   "nome": "Due di Spade",
    "nomi": {
     "it": "Due di Spade",
-    "fr": "Deux de Épée",
-    "en": "Two of Swords"
+    "en": "Two of Swords",
+    "fr": "Deux d'Épée",
+    "de": "Zwei der Schwerter",
+    "es": "Dos de Espadas",
+    "uk": "Двійка Мечів"
    },
    "alias": []
   },
@@ -515,11 +606,13 @@
    "gruppo": "minori",
    "seme": "spade",
    "numero": 3,
-   "nome": "Tre di Spade",
    "nomi": {
     "it": "Tre di Spade",
-    "fr": "Trois de Épée",
-    "en": "Three of Swords"
+    "en": "Three of Swords",
+    "fr": "Trois d'Épée",
+    "de": "Drei der Schwerter",
+    "es": "Tres de Espadas",
+    "uk": "Трійка Мечів"
    },
    "alias": []
   },
@@ -527,11 +620,13 @@
    "gruppo": "minori",
    "seme": "spade",
    "numero": 4,
-   "nome": "Quattro di Spade",
    "nomi": {
     "it": "Quattro di Spade",
-    "fr": "Quatre de Épée",
-    "en": "Four of Swords"
+    "en": "Four of Swords",
+    "fr": "Quatre d'Épée",
+    "de": "Vier der Schwerter",
+    "es": "Cuatro de Espadas",
+    "uk": "Четвірка Мечів"
    },
    "alias": []
   },
@@ -539,11 +634,13 @@
    "gruppo": "minori",
    "seme": "spade",
    "numero": 5,
-   "nome": "Cinque di Spade",
    "nomi": {
     "it": "Cinque di Spade",
-    "fr": "Cinq de Épée",
-    "en": "Five of Swords"
+    "en": "Five of Swords",
+    "fr": "Cinq d'Épée",
+    "de": "Fünf der Schwerter",
+    "es": "Cinco de Espadas",
+    "uk": "П'ятірка Мечів"
    },
    "alias": []
   },
@@ -551,11 +648,13 @@
    "gruppo": "minori",
    "seme": "spade",
    "numero": 6,
-   "nome": "Sei di Spade",
    "nomi": {
     "it": "Sei di Spade",
-    "fr": "Six de Épée",
-    "en": "Six of Swords"
+    "en": "Six of Swords",
+    "fr": "Six d'Épée",
+    "de": "Sechs der Schwerter",
+    "es": "Seis de Espadas",
+    "uk": "Шістка Мечів"
    },
    "alias": []
   },
@@ -563,11 +662,13 @@
    "gruppo": "minori",
    "seme": "spade",
    "numero": 7,
-   "nome": "Sette di Spade",
    "nomi": {
     "it": "Sette di Spade",
-    "fr": "Sept de Épée",
-    "en": "Seven of Swords"
+    "en": "Seven of Swords",
+    "fr": "Sept d'Épée",
+    "de": "Sieben der Schwerter",
+    "es": "Siete de Espadas",
+    "uk": "Сімка Мечів"
    },
    "alias": []
   },
@@ -575,11 +676,13 @@
    "gruppo": "minori",
    "seme": "spade",
    "numero": 8,
-   "nome": "Otto di Spade",
    "nomi": {
     "it": "Otto di Spade",
-    "fr": "Huit de Épée",
-    "en": "Eight of Swords"
+    "en": "Eight of Swords",
+    "fr": "Huit d'Épée",
+    "de": "Acht der Schwerter",
+    "es": "Ocho de Espadas",
+    "uk": "Вісімка Мечів"
    },
    "alias": []
   },
@@ -587,11 +690,13 @@
    "gruppo": "minori",
    "seme": "spade",
    "numero": 9,
-   "nome": "Nove di Spade",
    "nomi": {
     "it": "Nove di Spade",
-    "fr": "Neuf de Épée",
-    "en": "Nine of Swords"
+    "en": "Nine of Swords",
+    "fr": "Neuf d'Épée",
+    "de": "Neun der Schwerter",
+    "es": "Nueve de Espadas",
+    "uk": "Дев'ятка Мечів"
    },
    "alias": []
   },
@@ -599,11 +704,13 @@
    "gruppo": "minori",
    "seme": "spade",
    "numero": 10,
-   "nome": "Dieci di Spade",
    "nomi": {
     "it": "Dieci di Spade",
-    "fr": "Dix de Épée",
-    "en": "Ten of Swords"
+    "en": "Ten of Swords",
+    "fr": "Dix d'Épée",
+    "de": "Zehn der Schwerter",
+    "es": "Diez de Espadas",
+    "uk": "Десятка Мечів"
    },
    "alias": []
   },
@@ -611,11 +718,13 @@
    "gruppo": "figure",
    "seme": "spade",
    "numero": 11,
-   "nome": "Fante di Spade",
    "nomi": {
     "it": "Fante di Spade",
-    "fr": "Valet de Épée",
-    "en": "Page of Swords"
+    "en": "Page of Swords",
+    "fr": "Valet d'Épée",
+    "de": "Bube der Schwerter",
+    "es": "Sota de Espadas",
+    "uk": "Паж Мечів"
    },
    "alias": []
   },
@@ -623,11 +732,13 @@
    "gruppo": "figure",
    "seme": "spade",
    "numero": 11.5,
-   "nome": "Damigella di Spade",
    "nomi": {
     "it": "Damigella di Spade",
-    "fr": "Demoiselle de Épée",
-    "en": "Maiden of Swords"
+    "en": "Maiden of Swords",
+    "fr": "Demoiselle d'Épée",
+    "de": "Jungfer der Schwerter",
+    "es": "Doncella de Espadas",
+    "uk": "Панна Мечів"
    },
    "alias": []
   },
@@ -635,11 +746,13 @@
    "gruppo": "figure",
    "seme": "spade",
    "numero": 12,
-   "nome": "Cavaliere di Spade",
    "nomi": {
     "it": "Cavaliere di Spade",
-    "fr": "Cavalier de Épée",
-    "en": "Knight of Swords"
+    "en": "Knight of Swords",
+    "fr": "Cavalier d'Épée",
+    "de": "Ritter der Schwerter",
+    "es": "Caballero de Espadas",
+    "uk": "Лицар Мечів"
    },
    "alias": []
   },
@@ -647,11 +760,13 @@
    "gruppo": "figure",
    "seme": "spade",
    "numero": 12.5,
-   "nome": "Cavaliera di Spade",
    "nomi": {
     "it": "Cavaliera di Spade",
-    "fr": "Cavalière de Épée",
-    "en": "Lady Knight of Swords"
+    "en": "Lady Knight of Swords",
+    "fr": "Cavalière d'Épée",
+    "de": "Ritterin der Schwerter",
+    "es": "Amazona de Espadas",
+    "uk": "Вершниця Мечів"
    },
    "alias": []
   },
@@ -659,11 +774,13 @@
    "gruppo": "figure",
    "seme": "spade",
    "numero": 13,
-   "nome": "Regina di Spade",
    "nomi": {
     "it": "Regina di Spade",
-    "fr": "Reine de Épée",
-    "en": "Queen of Swords"
+    "en": "Queen of Swords",
+    "fr": "Reine d'Épée",
+    "de": "Königin der Schwerter",
+    "es": "Reina de Espadas",
+    "uk": "Королева Мечів"
    },
    "alias": []
   },
@@ -671,11 +788,13 @@
    "gruppo": "figure",
    "seme": "spade",
    "numero": 14,
-   "nome": "Re di Spade",
    "nomi": {
     "it": "Re di Spade",
-    "fr": "Roi de Épée",
-    "en": "King of Swords"
+    "en": "King of Swords",
+    "fr": "Roi d'Épée",
+    "de": "König der Schwerter",
+    "es": "Rey de Espadas",
+    "uk": "Король Мечів"
    },
    "alias": []
   },
@@ -683,11 +802,13 @@
    "gruppo": "minori",
    "seme": "bastoni",
    "numero": 1,
-   "nome": "Asso di Bastoni",
    "nomi": {
     "it": "Asso di Bastoni",
+    "en": "Ace of Wands",
     "fr": "As de Bâton",
-    "en": "Ace of Wands"
+    "de": "Ass der Stäbe",
+    "es": "As de Bastos",
+    "uk": "Туз Жезлів"
    },
    "alias": []
   },
@@ -695,11 +816,13 @@
    "gruppo": "minori",
    "seme": "bastoni",
    "numero": 2,
-   "nome": "Due di Bastoni",
    "nomi": {
     "it": "Due di Bastoni",
+    "en": "Two of Wands",
     "fr": "Deux de Bâton",
-    "en": "Two of Wands"
+    "de": "Zwei der Stäbe",
+    "es": "Dos de Bastos",
+    "uk": "Двійка Жезлів"
    },
    "alias": []
   },
@@ -707,11 +830,13 @@
    "gruppo": "minori",
    "seme": "bastoni",
    "numero": 3,
-   "nome": "Tre di Bastoni",
    "nomi": {
     "it": "Tre di Bastoni",
+    "en": "Three of Wands",
     "fr": "Trois de Bâton",
-    "en": "Three of Wands"
+    "de": "Drei der Stäbe",
+    "es": "Tres de Bastos",
+    "uk": "Трійка Жезлів"
    },
    "alias": []
   },
@@ -719,11 +844,13 @@
    "gruppo": "minori",
    "seme": "bastoni",
    "numero": 4,
-   "nome": "Quattro di Bastoni",
    "nomi": {
     "it": "Quattro di Bastoni",
+    "en": "Four of Wands",
     "fr": "Quatre de Bâton",
-    "en": "Four of Wands"
+    "de": "Vier der Stäbe",
+    "es": "Cuatro de Bastos",
+    "uk": "Четвірка Жезлів"
    },
    "alias": []
   },
@@ -731,11 +858,13 @@
    "gruppo": "minori",
    "seme": "bastoni",
    "numero": 5,
-   "nome": "Cinque di Bastoni",
    "nomi": {
     "it": "Cinque di Bastoni",
+    "en": "Five of Wands",
     "fr": "Cinq de Bâton",
-    "en": "Five of Wands"
+    "de": "Fünf der Stäbe",
+    "es": "Cinco de Bastos",
+    "uk": "П'ятірка Жезлів"
    },
    "alias": []
   },
@@ -743,11 +872,13 @@
    "gruppo": "minori",
    "seme": "bastoni",
    "numero": 6,
-   "nome": "Sei di Bastoni",
    "nomi": {
     "it": "Sei di Bastoni",
+    "en": "Six of Wands",
     "fr": "Six de Bâton",
-    "en": "Six of Wands"
+    "de": "Sechs der Stäbe",
+    "es": "Seis de Bastos",
+    "uk": "Шістка Жезлів"
    },
    "alias": []
   },
@@ -755,11 +886,13 @@
    "gruppo": "minori",
    "seme": "bastoni",
    "numero": 7,
-   "nome": "Sette di Bastoni",
    "nomi": {
     "it": "Sette di Bastoni",
+    "en": "Seven of Wands",
     "fr": "Sept de Bâton",
-    "en": "Seven of Wands"
+    "de": "Sieben der Stäbe",
+    "es": "Siete de Bastos",
+    "uk": "Сімка Жезлів"
    },
    "alias": []
   },
@@ -767,11 +900,13 @@
    "gruppo": "minori",
    "seme": "bastoni",
    "numero": 8,
-   "nome": "Otto di Bastoni",
    "nomi": {
     "it": "Otto di Bastoni",
+    "en": "Eight of Wands",
     "fr": "Huit de Bâton",
-    "en": "Eight of Wands"
+    "de": "Acht der Stäbe",
+    "es": "Ocho de Bastos",
+    "uk": "Вісімка Жезлів"
    },
    "alias": []
   },
@@ -779,11 +914,13 @@
    "gruppo": "minori",
    "seme": "bastoni",
    "numero": 9,
-   "nome": "Nove di Bastoni",
    "nomi": {
     "it": "Nove di Bastoni",
+    "en": "Nine of Wands",
     "fr": "Neuf de Bâton",
-    "en": "Nine of Wands"
+    "de": "Neun der Stäbe",
+    "es": "Nueve de Bastos",
+    "uk": "Дев'ятка Жезлів"
    },
    "alias": []
   },
@@ -791,11 +928,13 @@
    "gruppo": "minori",
    "seme": "bastoni",
    "numero": 10,
-   "nome": "Dieci di Bastoni",
    "nomi": {
     "it": "Dieci di Bastoni",
+    "en": "Ten of Wands",
     "fr": "Dix de Bâton",
-    "en": "Ten of Wands"
+    "de": "Zehn der Stäbe",
+    "es": "Diez de Bastos",
+    "uk": "Десятка Жезлів"
    },
    "alias": []
   },
@@ -803,11 +942,13 @@
    "gruppo": "figure",
    "seme": "bastoni",
    "numero": 11,
-   "nome": "Fante di Bastoni",
    "nomi": {
     "it": "Fante di Bastoni",
+    "en": "Page of Wands",
     "fr": "Valet de Bâton",
-    "en": "Page of Wands"
+    "de": "Bube der Stäbe",
+    "es": "Sota de Bastos",
+    "uk": "Паж Жезлів"
    },
    "alias": []
   },
@@ -815,11 +956,13 @@
    "gruppo": "figure",
    "seme": "bastoni",
    "numero": 11.5,
-   "nome": "Damigella di Bastoni",
    "nomi": {
     "it": "Damigella di Bastoni",
+    "en": "Maiden of Wands",
     "fr": "Demoiselle de Bâton",
-    "en": "Maiden of Wands"
+    "de": "Jungfer der Stäbe",
+    "es": "Doncella de Bastos",
+    "uk": "Панна Жезлів"
    },
    "alias": []
   },
@@ -827,11 +970,13 @@
    "gruppo": "figure",
    "seme": "bastoni",
    "numero": 12,
-   "nome": "Cavaliere di Bastoni",
    "nomi": {
     "it": "Cavaliere di Bastoni",
+    "en": "Knight of Wands",
     "fr": "Cavalier de Bâton",
-    "en": "Knight of Wands"
+    "de": "Ritter der Stäbe",
+    "es": "Caballero de Bastos",
+    "uk": "Лицар Жезлів"
    },
    "alias": []
   },
@@ -839,11 +984,13 @@
    "gruppo": "figure",
    "seme": "bastoni",
    "numero": 12.5,
-   "nome": "Cavaliera di Bastoni",
    "nomi": {
     "it": "Cavaliera di Bastoni",
+    "en": "Lady Knight of Wands",
     "fr": "Cavalière de Bâton",
-    "en": "Lady Knight of Wands"
+    "de": "Ritterin der Stäbe",
+    "es": "Amazona de Bastos",
+    "uk": "Вершниця Жезлів"
    },
    "alias": []
   },
@@ -851,11 +998,13 @@
    "gruppo": "figure",
    "seme": "bastoni",
    "numero": 13,
-   "nome": "Regina di Bastoni",
    "nomi": {
     "it": "Regina di Bastoni",
+    "en": "Queen of Wands",
     "fr": "Reine de Bâton",
-    "en": "Queen of Wands"
+    "de": "Königin der Stäbe",
+    "es": "Reina de Bastos",
+    "uk": "Королева Жезлів"
    },
    "alias": []
   },
@@ -863,11 +1012,13 @@
    "gruppo": "figure",
    "seme": "bastoni",
    "numero": 14,
-   "nome": "Re di Bastoni",
    "nomi": {
     "it": "Re di Bastoni",
+    "en": "King of Wands",
     "fr": "Roi de Bâton",
-    "en": "King of Wands"
+    "de": "König der Stäbe",
+    "es": "Rey de Bastos",
+    "uk": "Король Жезлів"
    },
    "alias": []
   },
@@ -875,11 +1026,13 @@
    "gruppo": "minori",
    "seme": "denari",
    "numero": 1,
-   "nome": "Asso di Denari",
    "nomi": {
     "it": "Asso di Denari",
+    "en": "Ace of Pentacles",
     "fr": "As de Denier",
-    "en": "Ace of Pentacles"
+    "de": "Ass der Münzen",
+    "es": "As de Oros",
+    "uk": "Туз Пентаклів"
    },
    "alias": []
   },
@@ -887,11 +1040,13 @@
    "gruppo": "minori",
    "seme": "denari",
    "numero": 2,
-   "nome": "Due di Denari",
    "nomi": {
     "it": "Due di Denari",
+    "en": "Two of Pentacles",
     "fr": "Deux de Denier",
-    "en": "Two of Pentacles"
+    "de": "Zwei der Münzen",
+    "es": "Dos de Oros",
+    "uk": "Двійка Пентаклів"
    },
    "alias": []
   },
@@ -899,11 +1054,13 @@
    "gruppo": "minori",
    "seme": "denari",
    "numero": 3,
-   "nome": "Tre di Denari",
    "nomi": {
     "it": "Tre di Denari",
+    "en": "Three of Pentacles",
     "fr": "Trois de Denier",
-    "en": "Three of Pentacles"
+    "de": "Drei der Münzen",
+    "es": "Tres de Oros",
+    "uk": "Трійка Пентаклів"
    },
    "alias": []
   },
@@ -911,11 +1068,13 @@
    "gruppo": "minori",
    "seme": "denari",
    "numero": 4,
-   "nome": "Quattro di Denari",
    "nomi": {
     "it": "Quattro di Denari",
+    "en": "Four of Pentacles",
     "fr": "Quatre de Denier",
-    "en": "Four of Pentacles"
+    "de": "Vier der Münzen",
+    "es": "Cuatro de Oros",
+    "uk": "Четвірка Пентаклів"
    },
    "alias": []
   },
@@ -923,11 +1082,13 @@
    "gruppo": "minori",
    "seme": "denari",
    "numero": 5,
-   "nome": "Cinque di Denari",
    "nomi": {
     "it": "Cinque di Denari",
+    "en": "Five of Pentacles",
     "fr": "Cinq de Denier",
-    "en": "Five of Pentacles"
+    "de": "Fünf der Münzen",
+    "es": "Cinco de Oros",
+    "uk": "П'ятірка Пентаклів"
    },
    "alias": []
   },
@@ -935,11 +1096,13 @@
    "gruppo": "minori",
    "seme": "denari",
    "numero": 6,
-   "nome": "Sei di Denari",
    "nomi": {
     "it": "Sei di Denari",
+    "en": "Six of Pentacles",
     "fr": "Six de Denier",
-    "en": "Six of Pentacles"
+    "de": "Sechs der Münzen",
+    "es": "Seis de Oros",
+    "uk": "Шістка Пентаклів"
    },
    "alias": []
   },
@@ -947,11 +1110,13 @@
    "gruppo": "minori",
    "seme": "denari",
    "numero": 7,
-   "nome": "Sette di Denari",
    "nomi": {
     "it": "Sette di Denari",
+    "en": "Seven of Pentacles",
     "fr": "Sept de Denier",
-    "en": "Seven of Pentacles"
+    "de": "Sieben der Münzen",
+    "es": "Siete de Oros",
+    "uk": "Сімка Пентаклів"
    },
    "alias": []
   },
@@ -959,11 +1124,13 @@
    "gruppo": "minori",
    "seme": "denari",
    "numero": 8,
-   "nome": "Otto di Denari",
    "nomi": {
     "it": "Otto di Denari",
+    "en": "Eight of Pentacles",
     "fr": "Huit de Denier",
-    "en": "Eight of Pentacles"
+    "de": "Acht der Münzen",
+    "es": "Ocho de Oros",
+    "uk": "Вісімка Пентаклів"
    },
    "alias": []
   },
@@ -971,11 +1138,13 @@
    "gruppo": "minori",
    "seme": "denari",
    "numero": 9,
-   "nome": "Nove di Denari",
    "nomi": {
     "it": "Nove di Denari",
+    "en": "Nine of Pentacles",
     "fr": "Neuf de Denier",
-    "en": "Nine of Pentacles"
+    "de": "Neun der Münzen",
+    "es": "Nueve de Oros",
+    "uk": "Дев'ятка Пентаклів"
    },
    "alias": []
   },
@@ -983,11 +1152,13 @@
    "gruppo": "minori",
    "seme": "denari",
    "numero": 10,
-   "nome": "Dieci di Denari",
    "nomi": {
     "it": "Dieci di Denari",
+    "en": "Ten of Pentacles",
     "fr": "Dix de Denier",
-    "en": "Ten of Pentacles"
+    "de": "Zehn der Münzen",
+    "es": "Diez de Oros",
+    "uk": "Десятка Пентаклів"
    },
    "alias": []
   },
@@ -995,11 +1166,13 @@
    "gruppo": "figure",
    "seme": "denari",
    "numero": 11,
-   "nome": "Fante di Denari",
    "nomi": {
     "it": "Fante di Denari",
+    "en": "Page of Pentacles",
     "fr": "Valet de Denier",
-    "en": "Page of Pentacles"
+    "de": "Bube der Münzen",
+    "es": "Sota de Oros",
+    "uk": "Паж Пентаклів"
    },
    "alias": []
   },
@@ -1007,11 +1180,13 @@
    "gruppo": "figure",
    "seme": "denari",
    "numero": 11.5,
-   "nome": "Damigella di Denari",
    "nomi": {
     "it": "Damigella di Denari",
+    "en": "Maiden of Pentacles",
     "fr": "Demoiselle de Denier",
-    "en": "Maiden of Pentacles"
+    "de": "Jungfer der Münzen",
+    "es": "Doncella de Oros",
+    "uk": "Панна Пентаклів"
    },
    "alias": []
   },
@@ -1019,11 +1194,13 @@
    "gruppo": "figure",
    "seme": "denari",
    "numero": 12,
-   "nome": "Cavaliere di Denari",
    "nomi": {
     "it": "Cavaliere di Denari",
+    "en": "Knight of Pentacles",
     "fr": "Cavalier de Denier",
-    "en": "Knight of Pentacles"
+    "de": "Ritter der Münzen",
+    "es": "Caballero de Oros",
+    "uk": "Лицар Пентаклів"
    },
    "alias": []
   },
@@ -1031,11 +1208,13 @@
    "gruppo": "figure",
    "seme": "denari",
    "numero": 12.5,
-   "nome": "Cavaliera di Denari",
    "nomi": {
     "it": "Cavaliera di Denari",
+    "en": "Lady Knight of Pentacles",
     "fr": "Cavalière de Denier",
-    "en": "Lady Knight of Pentacles"
+    "de": "Ritterin der Münzen",
+    "es": "Amazona de Oros",
+    "uk": "Вершниця Пентаклів"
    },
    "alias": []
   },
@@ -1043,11 +1222,13 @@
    "gruppo": "figure",
    "seme": "denari",
    "numero": 13,
-   "nome": "Regina di Denari",
    "nomi": {
     "it": "Regina di Denari",
+    "en": "Queen of Pentacles",
     "fr": "Reine de Denier",
-    "en": "Queen of Pentacles"
+    "de": "Königin der Münzen",
+    "es": "Reina de Oros",
+    "uk": "Королева Пентаклів"
    },
    "alias": []
   },
@@ -1055,11 +1236,13 @@
    "gruppo": "figure",
    "seme": "denari",
    "numero": 14,
-   "nome": "Re di Denari",
    "nomi": {
     "it": "Re di Denari",
+    "en": "King of Pentacles",
     "fr": "Roi de Denier",
-    "en": "King of Pentacles"
+    "de": "König der Münzen",
+    "es": "Rey de Oros",
+    "uk": "Король Пентаклів"
    },
    "alias": []
   }
